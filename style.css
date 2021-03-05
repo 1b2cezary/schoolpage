@@ -38,11 +38,27 @@ body{
     width: 70%;
     padding-right: 2pc;
 }
-#text{
+
+#textFirst{
     clear: left;
+    padding-top: 25pc;
+    padding-left: 5pc;
+}
+
+#text{
+    width: 40%;
     font-size: 15pc;
-    padding-top: 20pc;
     padding-left: 7pc;
+    float: left;
+}
+
+#textDescription{
+    margin-top: 3pc;
+    padding-left: 1pc;
+    border-left: 2pt solid white;
+    font-size: 2pc;
+    float: right;
+    width: 40%;
 }
 
 .navElement{
@@ -65,8 +81,29 @@ body{
     text-align: center;
     height: 50pc;
     color: black;
-    padding-top: 5pc;
+    padding-top: 10pc;
 }
-#textSecondElement{
+#textSecondElementHeader{
     font-size: 5pc;
+    font-weight: 600;
+}
+.twoColumnsText{
+    width: 100%;
+    align-items: center;
+}
+
+.columnText{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    font-size: 15pt;
+    margin: 2pc;
+}
+
+footer{
+    height: 2pc;
+    text-align: center;
+    -webkit-box-shadow: 0px -2px 5px 0px rgba(140,140,140,1);
+    -moz-box-shadow: 0px -2px 5px 0px rgba(140,140,140,1);
+    box-shadow: 0px -2px 5px 0px rgba(140,140,140,1);
 }
