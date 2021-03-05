@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#firstElement{
+    color: white;
+    background-image: url(img/photo.jpg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 110%;
+    height: 700pt;
+    -webkit-box-shadow: inset 0px -25px 29px -16px rgba(0,0,0,0.81);
+    -moz-box-shadow: inset 0px -25px 29px -16px rgba(0,0,0,0.81);
+    box-shadow: inset 0px -25px 29px -16px rgba(0,0,0,0.81);
+}
+
+#header{
+    width: 100%;
+    padding-top: 1pc;
+}
+
+#logo{
+    float: left;
+    width: 30%;
+    font-size: 2pc;
+    padding-left: 3pc;
+}
+#nav{
+    float: left;
+    width: 70%;
+    padding-right: 2pc;
+}
+#text{
+    clear: left;
+    font-size: 15pc;
+    padding-top: 20pc;
+    padding-left: 7pc;
+}
+
+.navElement{
+    padding-right: 1pc;
+    float: right;
+    height: 1pc;
+    padding-top: 1pc;
+    position: relative;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+.navElement:hover{
+    cursor: pointer;
+    color: #cccccc;
+}
+#secondElement{
+    text-align: center;
+    height: 50pc;
+    color: black;
+    padding-top: 5pc;
+}
+#textSecondElement{
+    font-size: 5pc;
+}
